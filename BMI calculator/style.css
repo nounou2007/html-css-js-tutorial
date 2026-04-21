@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background: linear-gradient(to left bottom, lightgreen, lightblue);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.bmi-container {
+    margin: 15px;
+    border: none;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .7);
+    background: linear-gradient(to right bottom, lightblue, lightgreen);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.container {
+
+    width: 350px;
+    height: 25px;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, .4);
+    border-color: rgba(255, 255, 255, .5);
+    font-size: 15px;
+
+}
+
+.btn {
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    width: 350px;
+    background-color: rgb(151, 255, 151);
+    box-shadow: 0 0px 4px rgba(0, 0, 0, .3);
+    border-radius: 2px;
+    align-self: center;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+    transition: all 300ms ease;
+}
+
+.info-text {
+    font-size: 20px;
+    font-weight: 500;
+}
