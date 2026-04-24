@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background: linear-gradient(to right bottom, #5B8D47, #406133, #181F14);
+    margin: 0;
+
+}
+
+.input {
+    padding: 35px;
+    width: 330px;
+    border: none;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .7);
+    font-size: 25px;
+    font-family: cursive;
+}
+
+input::placeholder {
+    color: lightslategrey;
+}
+
+.form {
+    position: absolute;
+    top: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    border-radius: 15px;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    background-color: #5b9467;
+    list-style-type: none;
+    padding: 20px;
+    font-family: cursive;
+    border-top: double;
+    border-color: darkgrey;
+    position: relative;
+}
+
+.list li .fa-trash-can {
+    color: #d327a8de;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.list li .fa-check-square {
+    color: #99ff97;
+    position: absolute;
+    right: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
