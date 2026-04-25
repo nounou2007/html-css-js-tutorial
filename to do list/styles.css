@@ -44,7 +44,7 @@ input::placeholder {
 }
 
 .list li .fa-trash-can {
-    color: #d327a8de;
+    color: #a91e02de;
     position: absolute;
     right: 5%;
     top: 50%;
@@ -59,4 +59,13 @@ input::placeholder {
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
+}
+
+.list li.checked {
+    color: darkred;
+    text-decoration: line-through;
+}
+
+.list li.checked .fa-check-square {
+    color: darkred;
 }
