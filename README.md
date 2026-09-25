@@ -46,7 +46,8 @@ No installation or server setup needed.
 
 Each folder contains its own `index.html`, CSS, and JS files, self-contained and independent of the others.
 
-## Purpose
+
+Built while following along with YouTube tutorials, with personal modifications and additions across the projects.
 
 This repo serves as a practice/portfolio collection for building small, functional UI components and logic-driven tools using core web technologies — before introducing frameworks.
 
